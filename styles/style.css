@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@600&family=Playfair+Display:ital,wght@1,700&family=Roboto&display=swap");
+
+body {
+  background: #eee5e9;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  background: #eee5e9;
+  box-shadow: 5px 5px 5px #7c7c7c;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  padding: 10px;
+  text-align: left;
+}
+
+.nav-header {
+  text-align: center;
+}
+
+header {
+  font-family: "Hind", sans-serif;
+  font-size: 20px;
+}
+
+.nav-link-style {
+  list-style: none;
+  padding: 5px;
+}
+
+a:visited {
+  color: #694d75;
+}
+
+a:link {
+  color: #2b303a;
+}
+
+ul {
+  font-family: "Hind", sans-serif;
+  padding-left: 0;
+}
+
+li {
+  font-size: 12px;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+#main-doc {
+  background: #eee5e9;
+}
+
+.main-section {
+  margin: 20px 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.div_7_Wonders_Ancient_World {
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  text-align: justify;
+  text-indent: 10px;
+}
+
+h4 {
+  font-family: "Hind", sans-serif;
+}
+
+code {
+  background: #ffdac6;
+  font-family: "Playfair Display", serif;
+}
+
+img {
+  height: 120px;
+  width: 60%;
+}
+
+.list-dates {
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+}
+
+#List_of_finalist > ul {
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+}
+
+#References > ul {
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+}
+
+footer {
+  align-items: center;
+  background: #2b303a;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  justify-content: space-around;
+  text-align: center;
+  width: 100%;
+}
+
+.link-footer:link {
+  color: #fff;
+}
+
+@media (min-width: 479px) {
+  img {
+    height: 200px;
+    width: 60%;
+  }
+}
+
+@media (min-width: 769px) {
+  img {
+    height: 250px;
+    width: 60%;
+  }
+
+  li {
+    font-size: 15px;
+  }
+
+  div ul {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  #List_of_finalist {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  #List_of_finalist li {
+    font-size: 14px;
+  }
+
+  #References p {
+    text-align: center;
+  }
+
+  #References li {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 991px) {
+  aside {
+    max-width: 30%;
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+  }
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-left: auto;
+  }
+
+  img {
+    height: 350px;
+    width: 60%;
+  }
+
+  #navbar {
+    height: 100vh;
+  }
+
+  .nav-header {
+    font-size: 22px;
+  }
+
+  .nav-link-style {
+    font-size: 18px;
+    margin: 10px;
+    padding: 15px;
+  }
+
+  .list-dates {
+    align-items: flex-start;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  #List_of_finalist {
+    text-align: center;
+    width: 100%;
+  }
+
+  #References {
+    text-align: center;
+    width: 100%;
+  }
+
+  #References p {
+    text-align: center;
+  }
+
+  #References li {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  footer {
+    margin-left: auto;
+    width: 70%;
+  }
+}
+
+@media (min-width: 1200px) {
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    width: 70%;
+  }
+
+  img {
+    height: 400px;
+    width: 60%;
+  }
+
+  #navbar {
+    height: 100vh;
+  }
+
+  .nav-header {
+    font-size: 22px;
+  }
+
+  .nav-link-style {
+    font-size: 18px;
+    margin: 10px;
+    padding: 15px;
+  }
+
+  footer {
+    margin-left: auto;
+    width: 70%;
+  }
+}
